@@ -74,12 +74,12 @@ class Program
 
         Piano piano = new Piano();
 
-        // Цикл для обработки нажатий клавиш
+        
         while (true)
         {
             ConsoleKeyInfo keyInfo = Console.ReadKey(true);
 
-            // Если нажата клавиша Q, выходим из цикла
+            
             if (keyInfo.Key == ConsoleKey.Q)
                 break;
 
